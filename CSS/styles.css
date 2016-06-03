@@ -1,0 +1,323 @@
+html {
+	height:100%;
+}
+body {
+	background:transparent;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#map-body {
+	height:100vh; 
+	background:#099ee3;	
+}
+textarea {
+	resize:none;
+}
+/* --- Global styles to save code --- */
+strong {
+	color:red;
+}
+.asterisk {
+	color:red;
+}
+.btn, .btn:active, .btn:focus {
+	outline:none;
+}
+/* --- Header begins --- */
+header {
+	height:20vh;
+	margin:0;
+}
+header img {
+	margin:15px 0 0 0;
+	padding:0;
+}
+header h1 {
+	width:100%;
+	text-align:right;
+	margin:0;
+	font-family: 'Crete Round', sans-serif;
+	font-size:4rem;
+	color:#099ee3;
+}
+header h1:nth-child(1) {
+	margin:47px 0 0 0;
+}
+header a, header a:hover {
+	color:#099ee3;	
+}
+/* --- Header ends --- */
+
+/* --- Nav begins --- */
+nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:9999;
+}
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+.navbar {
+    margin-bottom:0;
+	border:none;
+	border-radius:0;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-default {
+	background:#099ee3;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+	color:white;
+}
+.navbar-default .navbar-toggle {
+	border:none;
+	color:white;
+	margin:12px 15px 12px 0
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background:white;
+}
+.navbar-default .navbar-toggle:hover {
+	 background:none;
+ }
+.navbar-nav > li{
+	padding:5px 30px;
+	font-family: arial, sans-serif;
+	font-size:1.6rem;	
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{ 
+    background:none;
+	color:white;
+}
+.navbar-default .navbar-nav>li>a {
+	cursor:pointer;
+	color:white;
+}
+.navbar-default .navbar-nav>li>a:visited, .navbar-default .navbar-nav>li>a:active {
+	background:none;
+}
+.navbar-default .navbar-nav>li:hover {
+	background:#146f99;
+}
+/* --- Nav ends --- */
+.intro {
+	padding:2% 0 0 0;
+}
+.intro h1, .home-1 h1 {
+	font-family: 'Crete Round', sans-serif;
+	font-size:4rem;	
+}
+.home-1 {
+	padding:0 0 2% 0;
+}
+.home-1 img {
+	border:1px solid #333;
+}
+.intro ul, .home-1 ul {
+	list-style-type:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.intro li, .home-1 li {
+	font-family: 'Crimson Text', sans-serif;
+	font-size:2rem;	
+}
+.intro h2, .home-1 h2 {
+	font-family: 'Crete Round', sans-serif;
+	font-size:3.5rem;
+}
+.intro h3, .home-1 h3 {
+	font-family: 'Crete Round', sans-serif;
+	font-size:2.2rem;	
+}
+.intro p, .home-1 p {
+	font-family: 'Crimson Text', sans-serif;
+	text-align:justify;
+	font-size:2rem;
+}
+.intro a:hover, .home-1 a:hover {
+	text-decoration:none;
+}
+.home-1 .jumbotron {
+	padding:20px 0; 
+}
+.intro .jumbotron h2, .home-1 .jumbotron h2 {
+	margin:0;
+	text-align:center;
+}
+.home-1 table {
+	border-bottom:1px solid #ddd;
+}
+.home-1 th {
+	font-family: 'Crete Round', sans-serif;
+	font-size:2rem;	
+}
+.home-1 td {
+	font-family: 'Crimson Text', sans-serif;
+	font-size:1.8rem;	
+}
+.instructions {
+	list-style-type:decimal !important;
+	text-align:left !important;
+	color:#333;	
+}
+.home-1 h4 {
+	font-family: 'Crete Round', sans-serif;
+	font-size:2rem;
+}
+#map-body img {
+	display:block;
+	position:relative;
+	top:28%;
+	transform:transformY(-28%);
+	margin:0 auto;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.address {
+	text-align:left !important;
+	margin-bottom:1% !important;
+}
+.address li {
+	font-family: 'Crete Round', sans-serif;
+	font-size:2rem;
+	line-height:20px;
+}
+#contact h4 {
+	padding-bottom:1%;
+	border-bottom:1px solid #ddd;
+}
+#contact label {
+	font-weight:normal;
+	font-family: 'Crete Round', sans-serif;
+	font-size:1.8rem;	
+}
+#contact .form-control {
+	font-family: 'Crimson Text', sans-serif;
+	font-size:1.8rem;
+	border-radius:0;
+	line-height:1.8rem;	
+}
+#contact select {
+	padding-top:0.2%;
+}
+#contact .btn {
+	padding:10px 50px;
+	font-size:1.6rem;
+}
+#contact .btn-warning {
+	margin-left:0.5%;
+}
+.no-gutter [class*="-3"] {
+	padding-left:0;
+}
+.card {
+	margin-top:2%;
+	border:1px solid #ddd;
+	padding:40px 0;
+	border-radius:3px;
+}
+.card img {
+	margin: 0 auto;
+	border-radius:3px;
+}
+.card h6 {
+	width:100%;
+	font-family: 'Crimson Text', sans-serif;
+	text-align:center;
+	font-size:1.8rem;	
+}
+.card .btn {
+	padding:6px 64px;
+}
+.card a {
+	font-size:1.6rem;
+	color:white;
+}
+footer {
+	padding:20px 0;
+	background:#099ee3;
+	font-family:arial, sans-serif;
+	font-size:1.3rem;
+}
+footer ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+footer ul li {
+	display:inline-block;
+	padding:0 20px;
+}
+footer ul li a, footer ul li a:hover {
+	color:white;
+}
+footer p {
+	margin:10px 0 0 0;
+	text-align:center;
+	color:white;
+}
+/* --- Footer begins --- */
+/* --- Footer ends --- */
+@media all and (max-width:1367px) {
+	header h1 {
+		font-size:3rem;
+	}
+	header h1:nth-child(1) {
+		margin:60px 0 0 0;
+	}	
+}
+@media all and (max-width:992px) {
+	header h1:nth-child(1) {
+		margin:75px 0 0 0;
+	}
+	.home-1 img {
+		margin-bottom:2%;
+	}
+}
+@media all and (max-width:768px) {
+	header img {
+		margin:5px auto 0 auto;
+		width:50%;
+	}
+	header h1 {
+		font-size:2.75rem;
+		text-align:center;
+	}
+	header h1:nth-child(1) {
+		margin:5px 0 0 0;
+	}	
+}
+@media all and (max-width:404px) { 
+	#contact .btn {
+		width:100%;
+		margin:2% 0 0 0;
+	}
+}
+@media all and (max-width:375px) { 
+	header h1 {
+		font-size:2rem;
+		text-align:center;
+	}
+	header h1:nth-child(1) {
+		margin:5px 0 0 0;
+	}	
+}
+@media all and (max-width:320px) { 
+	header h1 {
+		font-size:1.5rem;
+		text-align:center;
+	}
+}
